@@ -1,0 +1,13 @@
+git init       //若已經初始化過就可以不用輸入
+git add .
+git commit -m "first commit"
+git remote add origin [GitHub Repositories Url]
+git branch -M main
+git push -u origin main      // 僅限第一次輸入，往後只需要輸入 git push
+
+git init       //若已經初始化過就可以不用輸入 初始化網站空間
+git add .      //把左邊那些檔案都準備加到網站空間
+git commit -m "第一次更新" //將本次更新打包，並加上註解
+git remote add origin https://github.com/dizzydog-rgb/week4_glasses_website_vite.git //選定遠端的網站空間名稱
+git branch -M main //建立main分支 // 沒有要建立main分支就不用
+git push -u origin main      //上傳到網站空間的main branch  // 僅限第一次輸入，往後只需要輸入 git push
