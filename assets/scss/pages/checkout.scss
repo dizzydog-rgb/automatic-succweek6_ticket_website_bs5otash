@@ -1,0 +1,53 @@
+.bill-info p{
+    margin-bottom: 0;
+}
+.pt-32px{
+    padding-top: 32px;
+}
+.pb-32px{
+    padding-bottom: 32px;
+}
+.mt-32px{
+    margin-top: 32px;
+}
+.boxcontainer{
+    position: relative;
+}
+.boxitem{
+    width: 32px;
+    height: 32px;
+    background-color: $secondary;
+    color: $third;
+    text-align: center;
+    padding: 4px;
+}
+.line{ 
+    border-bottom: 1px solid $secondary; 
+    position: absolute; 
+    top: 16px; 
+    width: 100%; 
+    z-index: -1; 
+}
+.container-fluid ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+
+@media (min-width: 992px) {
+    .boxitem{
+        width: 48px;
+        height: 48px;
+        background-color: $secondary;
+        color: $third;
+        text-align: center;
+        padding: 6px;
+        font-size: 24px;
+    }
+    .header{
+        border-bottom: none;
+    }
+    .header-lg{
+        border-top: 3px $secondary solid;
+    }
+}

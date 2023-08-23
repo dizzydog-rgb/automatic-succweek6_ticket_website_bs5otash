@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <title>index</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <div class="container-fluid bg-primary">
+        <ul class="row mb-0">
+            <li class="col-4"></li>
+            <li class="col-4 text-center">
+                <div>
+                    <img class="mt-4 mt-lg-6" src="/assets/images/sparkler.png" alt="sparkler">
+                    <h2 class="fs-4 fw-bold noto mt-3">會員登入</h2>
+                </div>
+                <form>
+                    <fieldset disabled>
+                      <div class="mb-3 mt-3 noto">
+                        <label for="disabledTextInput" class="form-label fs-4 d-flex justify-content-start">帳號</label>
+                        <input type="text" id="disabledTextInput" class="form-control fs-4 " placeholder="請輸入帳號">
+                      </div>
+                      <div class="mb-3 mt-3 noto">
+                        <label for="disabledTextInput" class="form-label fs-4 d-flex justify-content-start">密碼</label>
+                        <input type="text" id="disabledTextInput" class="form-control fs-4 " placeholder="請輸入密碼">
+                      </div>            
+                    <button type="submit" class="btn btn-secondary fw-bold mt-4 mt-lg-32px">登入<i class="icofont-arrow-right"></i></button>
+                    </fieldset>
+                  </form>
+            </li>
+            <li class="col-4"></li>
+        </ul>
+    </div>
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

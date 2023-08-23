@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <title>index</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <div class="container-fluid bg-primary">
+      <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-12 col-lg-6 boxcontainer d-flex justify-content-between pt-32px">
+          <div class="boxitem"><i class="icofont-verification-check"></i></div>
+          <div class="line"></div>
+          <div class="boxitem"><i class="icofont-verification-check"></i></div>
+          <div class="line">500</div>
+          <div class="boxitem noto">3</div>
+        </div>
+        <div class="col-lg-3"></div>
+      </div>    
+      <ul class="row header pt-5 pb-4">
+        <li class="col-4 col-lg-3"></li>
+        <li class="col-4 col-lg-6 text-center">
+          <i class="icofont-check-circled d-block d-lg-none icofont-2x"></i>
+          <i class="icofont-check-circled d-none d-lg-block icofont-3x"></i>
+          <h2 class="fs-4 fs-lg-3 fw-bold noto mt-3">訂購成功</h2>
+        </li>
+        <li class="col-4 col-lg-3"></li>
+      </ul>
+      <ul class="row justify-content-center bill-info">
+        <li class="col-12 col-lg-6 fs-5 fw-bold noto py-2 d-flex justify-content-between border-bottom border-secondary  header-lg">
+          <p>訂單編號</p>
+          <p>892746123</p>
+        </li>
+        <li class="col-12 col-lg-6 mx-lg-1 fs-5 fw-bold noto py-2 d-flex justify-content-between border-bottom border-secondary">
+          <p>訂購時間</p>
+          <p>2023/04/28 14:30</p>
+        </li>
+        <li class="col-12 col-lg-6 mx-lg-1 fs-5 fw-bold noto py-2 d-flex justify-content-between border-bottom border-secondary">
+          <p>票券</p>
+          <p>改頭換面票（含大改造）$8000</p>
+        </li>
+        <li class="col-12 col-lg-6 mx-lg-1 fs-5 fw-bold noto py-2 d-flex justify-content-between border-bottom border-secondary">
+          <p>取票序號</p>
+          <p class="text-fourth">95G54J4434</p>
+        </li>
+        <li class="col-12 col-lg-6 mx-lg-1 fs-5 fw-bold noto py-2 d-flex justify-content-between border-bottom border-secondary">
+          <p>取票號碼</p>
+          <p class="text-fourth">04597101</p>
+        </li>
+        <li class="col-12 col-lg-6 fs-5 noto pt-3 py-5 text-gray">
+          <p>請至 7-Eleven 完成取票，請於 ibon 點選【購票/取票/訂房】>【售票系統】>【取票】>【拓元售票系統】。 <br>
+            若您未前往取票，本筆交易仍視為完成，不可取消訂單。<br>
+            若需退票，請按照退票辦法進行申請。</p>
+        </li>
+      </ul>
+
+    </div>
+    
+
+    <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
