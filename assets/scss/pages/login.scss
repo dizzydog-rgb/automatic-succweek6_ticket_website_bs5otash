@@ -8,12 +8,12 @@
     background-color: $primary;
 }
 
-.row .col-4 .btn-secondary{
-    color: white;
-    background-color: $secondary;
+.btn-secondary{
+    // color: white;
+    // background-color: $secondary;
     margin-bottom: 264px;
     width: 100%;
-    border-radius: 0;
+    // border-radius: 0; 改使用rounded-0修改
 }
 .mt-lg-32px{
     margin-top: 32px;

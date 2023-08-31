@@ -33,6 +33,12 @@
 .text-fourth{
     color: $fourth;
 }
+// 漢堡選單的內容改為絕對定位
+.collapse{
+    position: absolute;
+    top: 0px;
+    right: 104px;
+}
 
 @media (min-width:992px) {
     .navbar .search{

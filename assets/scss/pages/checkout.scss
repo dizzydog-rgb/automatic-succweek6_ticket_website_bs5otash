@@ -26,17 +26,33 @@ body, html {
     text-align: center;
     padding: 4px;
 }
-.line{ 
-    border-bottom: 1px solid $secondary; 
-    position: absolute; 
-    top: 16px; 
-    width: 100%; 
-    z-index: -1; 
-}
 .container-fluid ul{
     padding-left: 0;
     margin-bottom: 0;
 }
+
+// 利用假元素產生連接線
+.pay-list-1::before {
+    width: 43.5%;
+    height: 1px;
+    content: "";
+    background-color: black;
+    display: block;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+  }
+  .pay-list-2::before {
+    width: 44%;
+    height: 1px;
+    content: "";
+    background-color: black;
+    display: block;
+    position: absolute;
+    top: 75%;
+    right: 5%;
+  }
+  
 
 
 @media (min-width: 992px) {
@@ -55,4 +71,14 @@ body, html {
     .header-lg{
         border-top: 3px $secondary solid;
     }
+    .pay-list-1::before {
+        width: 40%;
+        top: 70%;
+        left: 7%;
+      }
+      .pay-list-2::before {
+        width: 40%;
+        top: 70%;
+        right: 7%;
+      }
 }
